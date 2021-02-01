@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -115,4 +115,24 @@ h1 {
 
 .label-score {
   margin-bottom: 2rem;
+}
+
+footer {
+  display: block;
+  background-color: #333;
+  width: 100vw;
+  height: 4rem;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  border-top: #fff 1px solid;
+}
+footer p:first-of-type {
+  padding-top: 10px;
+}
+footer p {
+  margin: 0 auto;
+  width: 30%;
+}
+footer .color {
+  color: #e25555;
 }
