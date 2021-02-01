@@ -66,7 +66,7 @@ document.querySelector('.again').addEventListener
   score = 20;
   secretNumber = getSecretNumber(20, 1)
   displayMessage('🧐 Start Guessing...');
-  styleBody('#222');
+  stylesYouLose('#222', '#fff', '#fff');
   styleBorder('15rem');
   yourScore(score);
   placeSecretNumber('?');
